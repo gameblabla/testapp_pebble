@@ -1,0 +1,36 @@
+{
+  "name": "test_app",
+  "author": "gameblabla",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "test",
+    "uuid": "fb9bfbb1-4294-4174-a611-16a7f5bb56fa",
+    "sdkVersion": "3",
+    "enableMultiJS": false,
+    "targetPlatforms": [
+		"basalt"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+        "media": 
+        [
+			{
+			  "type": "png",
+			  "name": "IMAGE_TEST",
+			  "file": "images/test.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			}
+			
+        ]
+    }
+  }
+}
