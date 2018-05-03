@@ -13,9 +13,11 @@
 *.SFO
 *.prx
 test_bitmap/build
-test_fillrect/build
 test_bitmap/.lock-waf_linux2_build
+test_fillrect/build
 test_fillrect/.lock-waf_linux2_build
+test_bigpict/build
+test_bigpict/.lock-waf_linux2_build
 .lock-waf_linux2_build
 build/
 /oswan/main/*.sh
