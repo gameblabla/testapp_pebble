@@ -56,7 +56,7 @@ static void config_provider(Window *window)
 static void updateGame(Layer *layer, GContext *ctx)
 {
 	//graphics_context_set_compositing_mode(ctx, GCompOpAssign);
-	graphics_draw_bitmap_in_rect(ctx, current_background, GRect(0, 0, 144, 140));
+	graphics_draw_bitmap_in_rect(ctx, current_background, GRect(0, 0, 144, 168));
 
 }
 
